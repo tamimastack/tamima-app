@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* الأنماط المخصصة */
+@layer base {
+    * {
+        @apply m-0 p-0 box-border;
+        direction: rtl;
+        font-family: 'Cairo', sans-serif;
+    }
+
+    body {
+        @apply bg-background text-text leading-relaxed p-5;
+        line-height: 1.6;
+    }
+}
+
+/* ... إلخ (كما في الإجابة السابقة) */
